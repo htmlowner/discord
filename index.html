@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+    <title>htmlowner</title>
+</head>
+<body>
+    <div class="outer">
+        <div class="inner">
+            <div class="banner">
+                <img src="https://media.discordapp.net/attachments/685887967088476169/1215747266774696078/standard.gif?ex=65fddfdf&is=65eb6adf&hm=02a27a8d8881699ef9912ce8c15dbe480d38d1345ca9b6d8332d121fe8b1520b&=&width=550&height=194" class="gifb">
+            </div>
+            <div class="avatar">
+                <img src="https://i.pinimg.com/564x/0c/ec/44/0cec4407d5508603317d4d64b0c503fb.jpg" class="ava">
+                <img src="https://cdn.discordapp.com/avatar-decoration-presets/a_fed43ab12698df65902ba06727e20c0e.png?size=96&passthrough=false" class="beauty">
+                <img src="https://media.discordapp.net/attachments/1209542301865615361/1220478978616201226/7907_DND.png?ex=660f169f&is=65fca19f&hm=06c63c7d90c4c3262e52ad39fe7835acba20a7e76438686cd984e99229c31804&=&format=webp&quality=lossless&width=615&height=615" class="iconstate">
+            </div>
+            <div class="badges">
+                <a href="https://discord.com/settings/hypesquad-online" class="hql">
+                    <img src="https://cdn.discordapp.com/badge-icons/8a88d63823d8a71cd5e390baa45efa02.png" class="HypeSquad">
+                </a>
+                <a href="https://support-dev.discord.com/hc/en-us/articles/10113997751447?ref=badge" class="ad">
+                    <img src="https://cdn.discordapp.com/badge-icons/6bdc42827a38498929a4920da12695d9.png" class="ActiveDeveloper">
+                </a>
+                <a href="https://discord.com/settings/premium" class="ns">
+                    <img src="https://cdn.discordapp.com/badge-icons/2ba85e8026a8614b640c2837bcdfe21b.png" class="Nitro">
+                </a>
+                <a href="https://discord.com/settings/premium" class="bs">
+                    <img src="https://cdn.discordapp.com/badge-icons/51040c70d4f20a921ad6674ff86fc95c.png" class="NitroBoost">
+                </a>
+                <a class="on">
+                    <img src="https://cdn.discordapp.com/badge-icons/6de6d34650760ba5551a79732e98ed60.png" class="OldName">
+                </a>
+            </div>
+            <div class="mprofile">
+                <div class="info">
+                    <div class="username">htmlowner \\ xtzz</div>
+                    <div class="id">lgxd</div>
+                    <div class="other">@tqarrx | @skypefame</div>
+                </div>
+                <div class="line"></div>
+                <div class="scroller">
+                    <div class="about">ОБО МНЕ</div>
+                    <div class="status">
+                        <div class="one">dir/</div>
+                        <div class="two">www</div>
+                        <div class="three">public_html</div>
+                        <div class="four">
+                            <a href="https://htmlowner.xyz" class="biolink">https://htmlowner.xyz</a>
+                        </div>
+                    </div>
+                    <div class="user">В ЧИСЛЕ УЧАСТНИКОВ DISCORD С</div>
+                    <div class="date">21 сент. 2018 г.</div>
+                </div>
+                <div class="line2"></div>
+                <div class="active">
+                    <img src="https://media.discordapp.net/attachments/1209542301865615361/1220478978616201226/7907_DND.png?ex=660f169f&is=65fca19f&hm=06c63c7d90c4c3262e52ad39fe7835acba20a7e76438686cd984e99229c31804&=&format=webp&quality=lossless&width=615&height=615" class="icon">
+                    <div class="dontw">Не беспокоить</div>
+                </div>
+
+                <div class="customstatus">
+                    <img src="https://media.discordapp.net/attachments/1148661833755017276/1220435560871497779/1711044819337.png?ex=660eee30&is=65fc7930&hm=1bb5dc7a63332069c8d3ea65d81e7c558a7f4e1a29c28e701401c85a4a3c89dc&=&format=webp&quality=lossless" class="smile">
+                    <div class="madecustom">Буду проституткой</div>
+                </div>
+
+                <div class="line3"></div>
+                <div class="switch">
+                    <img src="https://media.discordapp.net/attachments/1148661833755017276/1220435533394874368/1711044718867.png?ex=660eee29&is=65fc7929&hm=cd34dec3c3120497f1ca020689abaaa9dd683c0b354a041c4c6e3311a03bc071&=&format=webp&quality=lossless" class="sicon">
+                    <div class="switchtext">Переключение между учетными з...</div>
+                </div>
+                <div class="line4"></div>
+                <button id="copy_2" class="cid">
+                    <img src="https://media.discordapp.net/attachments/1148661833755017276/1220435516541898772/1711044571864.png?ex=660eee25&is=65fc7925&hm=3549ce5ce15e1e0fa2fb9917b12ff1fea1f90a0a624809a3bb927376e03246ab&=&format=webp&quality=lossless" class="idicon">
+                    <p class="copyid">Копировать ID пользователя</p>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+    const btn2 = document.getElementById("copy_2")
+
+    btn2.addEventListener("click", () => {
+        const sysInput = document.createElement("input");
+        sysInput.setAttribute("value", "492654716808069120");
+        document.body.appendChild(sysInput);
+        sysInput.select();
+        document.execCommand("copy");
+        document.body.removeChild(sysInput);
+    });
+</script>
+
+</html>
